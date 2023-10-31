@@ -4,8 +4,8 @@ build:
 testCase:
 	pytest test_cpo.py
 
-kattisLocal:
-	cat 1.in | python3 cpo.py | diff - 1.ans
+sampleCase:
+	cat sample1.in | python3 cpo.py | diff - sample1.ans
 
 checkStyles:
 	flake8 cpo.py 
