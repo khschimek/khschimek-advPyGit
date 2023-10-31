@@ -19,5 +19,10 @@ checkTypes:
 	mypy cpo.py 
 	mypy test_cpo.py
 
-kattis:
+testAll:
+	make testCase
+	make kattisLocal
+	make checkStyles
+	make fixStyles
+	make checkTypes
 	
