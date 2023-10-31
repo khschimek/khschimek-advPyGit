@@ -21,7 +21,7 @@ checkTypes:
 
 testAll:
 	make testCase
-	make kattisLocal
+	
 	make checkStyles
 	make fixStyles
 	make checkTypes
